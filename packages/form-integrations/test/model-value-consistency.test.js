@@ -212,11 +212,9 @@ describe('lion-select-rich', () => {
       const spy = sinon.spy();
       await fixture(html`
         <lion-select-rich @model-value-changed="${spy}">
-          <lion-options slot="input">
-            <lion-option .choiceValue="${'option1'}"></lion-option>
-            <lion-option .choiceValue="${'option2'}"></lion-option>
-            <lion-option .choiceValue="${'option3'}"></lion-option>
-          </lion-options>
+          <lion-option .choiceValue="${'option1'}"></lion-option>
+          <lion-option .choiceValue="${'option2'}"></lion-option>
+          <lion-option .choiceValue="${'option3'}"></lion-option>
         </lion-select-rich>
       `);
 
