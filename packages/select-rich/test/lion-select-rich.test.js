@@ -184,6 +184,7 @@ describe('lion-select-rich', () => {
       expect(el._invokerNode.shadowRoot.firstElementChild.textContent).to.equal('10');
 
       firstOption.modelValue = { value: 30, checked: true };
+      await firstOption.updateComplete;
       await el.updateComplete;
       // @ts-ignore allow protected access in tests
       expect(el._invokerNode.shadowRoot.firstElementChild.textContent).to.equal('30');
