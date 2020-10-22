@@ -33,5 +33,5 @@ export function formatDate(date, options) {
   } catch (e) {
     formattedDate = '';
   }
-  return normalizeIntlDate(formattedDate, formatOptions);
+  return normalizeIntlDate(formattedDate, computedLocale, formatOptions);
 }
