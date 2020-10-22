@@ -1,5 +1,11 @@
 # Change Log
 
+## 0.8.0
+
+### Minor Changes
+
+- 978af941: fix(icon): single pronounciation in JAWS/FF
+
 ## 0.7.6
 
 ### Patch Changes
