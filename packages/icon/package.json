@@ -1,6 +1,6 @@
 {
   "name": "@lion/icon",
-  "version": "0.7.6",
+  "version": "0.8.0",
   "description": "A web component easily displaying svg icons",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group icon",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group icon",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group icon",
+    "debug": "cd ../../ && npm run debug --group icon",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group icon",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group icon",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group icon"
+    "test": "cd ../../ && npm run test:browser --group icon"
   },
   "sideEffects": [
     "lion-icon.js",
     "./docs/icon-resolvers.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
+    "@lion/core": "0.13.2",
     "singleton-manager": "1.1.2"
   },
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "@lion/combobox",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A widget made up of a single-line textbox and an associated pop-up listbox element",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,11 +23,11 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group combobox",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group combobox",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group combobox",
+    "debug": "cd ../../ && npm run debug --group combobox",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group combobox",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group combobox",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group combobox"
+    "test": "cd ../../ && npm run test:browser --group combobox"
   },
   "sideEffects": [
     "lion-combobox.js",
@@ -41,13 +41,13 @@
     "docs/md-combobox/style/load-roboto.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4",
-    "@lion/listbox": "0.3.0",
-    "@lion/overlays": "0.21.1"
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5",
+    "@lion/listbox": "0.3.1",
+    "@lion/overlays": "0.21.2"
   },
   "devDependencies": {
-    "@lion/validate-messages": "0.3.2"
+    "@lion/validate-messages": "0.3.3"
   },
   "keywords": [
     "combobox",

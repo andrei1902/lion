@@ -1,6 +1,6 @@
 {
   "name": "@lion/textarea",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "Provide a way for users to write text that is multiple lines long",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group textarea",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group textarea",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group textarea",
+    "debug": "cd ../../ && npm run debug --group textarea",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group textarea",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group textarea",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group textarea"
+    "test": "cd ../../ && npm run test:browser --group textarea"
   },
   "sideEffects": [
     "lion-textarea.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4",
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5",
     "@types/autosize": "^3.0.7",
     "autosize": "4.0.2"
   },

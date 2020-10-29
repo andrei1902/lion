@@ -1,6 +1,6 @@
 {
   "name": "@lion/validate-messages",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "A set of localized messages for default Validators",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,16 +23,16 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group validate-messages",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group validate-messages",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group validate-messages",
+    "debug": "cd ../../ && npm run debug --group validate-messages",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group validate-messages",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group validate-messages",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group validate-messages"
+    "test": "cd ../../ && npm run test:browser --group validate-messages"
   },
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4",
-    "@lion/localize": "0.14.6"
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5",
+    "@lion/localize": "0.14.7"
   },
   "keywords": [
     "feedback",

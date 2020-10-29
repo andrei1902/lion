@@ -1,6 +1,6 @@
 {
   "name": "@lion/input-datepicker",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "description": "Provide a way for users to fill in a date via a calendar overlay",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,25 +23,25 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group input-datepicker",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group input-datepicker",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group input-datepicker",
+    "debug": "cd ../../ && npm run debug --group input-datepicker",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group input-datepicker",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group input-datepicker",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group input-datepicker"
+    "test": "cd ../../ && npm run test:browser --group input-datepicker"
   },
   "sideEffects": [
     "lion-input-datepicker.js"
   ],
   "dependencies": {
-    "@lion/calendar": "0.12.1",
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4",
-    "@lion/input-date": "0.8.2",
-    "@lion/localize": "0.14.6",
-    "@lion/overlays": "0.21.1"
+    "@lion/calendar": "0.12.2",
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5",
+    "@lion/input-date": "0.8.3",
+    "@lion/localize": "0.14.7",
+    "@lion/overlays": "0.21.2"
   },
   "devDependencies": {
-    "@lion/validate-messages": "0.3.2"
+    "@lion/validate-messages": "0.3.3"
   },
   "keywords": [
     "calendar",

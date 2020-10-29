@@ -1,6 +1,6 @@
 {
   "name": "@lion/tabs",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Allows users to quickly move between a small number of equally important views.",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,17 +23,17 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group tabs",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group tabs",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group tabs",
+    "debug": "cd ../../ && npm run debug --group tabs",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group tabs",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group tabs",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group tabs"
+    "test": "cd ../../ && npm run test:browser --group tabs"
   },
   "sideEffects": [
     "lion-tabs.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1"
+    "@lion/core": "0.13.2"
   },
   "keywords": [
     "lion",

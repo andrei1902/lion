@@ -1,6 +1,6 @@
 {
   "name": "@lion/calendar",
-  "version": "0.12.1",
+  "version": "0.12.2",
   "description": "Standalone calendar",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group calendar",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group calendar",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group calendar",
+    "debug": "cd ../../ && npm run debug --group calendar",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group calendar",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group calendar",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group calendar"
+    "test": "cd ../../ && npm run test:browser --group calendar"
   },
   "sideEffects": [
     "lion-calendar.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/localize": "0.14.6"
+    "@lion/core": "0.13.2",
+    "@lion/localize": "0.14.7"
   },
   "keywords": [
     "calendar",

@@ -1,6 +1,6 @@
 {
   "name": "@lion/select-rich",
-  "version": "0.21.7",
+  "version": "0.21.8",
   "description": "Provides a select with options that can contain html",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,22 +23,22 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group select-rich",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group select-rich",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group select-rich",
+    "debug": "cd ../../ && npm run debug --group select-rich",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group select-rich",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group select-rich",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group select-rich"
+    "test": "cd ../../ && npm run test:browser --group select-rich"
   },
   "sideEffects": [
     "lion-select-invoker.js",
     "lion-select-rich.js"
   ],
   "dependencies": {
-    "@lion/button": "0.8.1",
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4",
-    "@lion/listbox": "0.3.0",
-    "@lion/overlays": "0.21.1"
+    "@lion/button": "0.8.2",
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5",
+    "@lion/listbox": "0.3.1",
+    "@lion/overlays": "0.21.2"
   },
   "keywords": [
     "field",

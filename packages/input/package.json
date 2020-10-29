@@ -1,6 +1,6 @@
 {
   "name": "@lion/input",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "It enhances the functionality of the native `<input>` element",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group input",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group input",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group input",
+    "debug": "cd ../../ && npm run debug --group input",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group input",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group input",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group input"
+    "test": "cd ../../ && npm run test:browser --group input"
   },
   "sideEffects": [
     "lion-input.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4"
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5"
   },
   "keywords": [
     "input",

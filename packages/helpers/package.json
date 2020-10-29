@@ -1,6 +1,6 @@
 {
   "name": "@lion/helpers",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "description": "Helpers that are used throughout lion and can be used outside",
   "license": "MIT",
   "author": "ing-bank",
@@ -20,18 +20,18 @@
     "sortEachDepth"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group helpers",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group helpers",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group helpers",
+    "debug": "cd ../../ && npm run debug --group helpers",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group helpers",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group helpers",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group helpers"
+    "test": "cd ../../ && npm run test:browser --group helpers"
   },
   "sideEffects": [
     "sb-action-logger.js",
     "sb-locale-switcher.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1"
+    "@lion/core": "0.13.2"
   },
   "keywords": [
     "action logger",

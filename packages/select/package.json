@@ -1,6 +1,6 @@
 {
   "name": "@lion/select",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "Provide a set of options where you can select one",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group select",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group select",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group select",
+    "debug": "cd ../../ && npm run debug --group select",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group select",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group select",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group select"
+    "test": "cd ../../ && npm run test:browser --group select"
   },
   "sideEffects": [
     "lion-select.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4"
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5"
   },
   "keywords": [
     "lion",

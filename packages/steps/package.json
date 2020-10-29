@@ -1,6 +1,6 @@
 {
   "name": "@lion/steps",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Breaks a single goal down into dependable sub-tasks.",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group steps",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group steps",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group steps",
+    "debug": "cd ../../ && npm run debug --group steps",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group steps",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group steps",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group steps"
+    "test": "cd ../../ && npm run test:browser --group steps"
   },
   "sideEffects": [
     "lion-step.js",
     "lion-steps.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1"
+    "@lion/core": "0.13.2"
   },
   "keywords": [
     "lion",

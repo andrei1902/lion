@@ -1,6 +1,6 @@
 {
   "name": "@lion/dialog",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "Show relative overlay content on click, as a webcomponent",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,19 +23,19 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group dialog",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group dialog",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group dialog",
+    "debug": "cd ../../ && npm run debug --group dialog",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group dialog",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group dialog",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group dialog"
+    "test": "cd ../../ && npm run test:browser --group dialog"
   },
   "sideEffects": [
     "lion-dialog.js",
     "./docs/styled-dialog-content.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/overlays": "0.21.1"
+    "@lion/core": "0.13.2",
+    "@lion/overlays": "0.21.2"
   },
   "keywords": [
     "dialog",

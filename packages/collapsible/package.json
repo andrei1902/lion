@@ -1,6 +1,6 @@
 {
   "name": "@lion/collapsible",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "This component is a combination of a button (the invoker), a chunk of extra content.",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,11 +23,11 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group collapsible",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group collapsible",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group collapsible",
+    "debug": "cd ../../ && npm run debug --group collapsible",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group collapsible",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group collapsible",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group collapsible"
+    "test": "cd ../../ && npm run test:browser --group collapsible"
   },
   "sideEffects": [
     "lion-collapsible.js",
@@ -35,7 +35,7 @@
     "demo/custom-collapsible.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1"
+    "@lion/core": "0.13.2"
   },
   "keywords": [
     "collapsible",

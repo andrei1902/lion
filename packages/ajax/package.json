@@ -1,6 +1,6 @@
 {
   "name": "@lion/ajax",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Thin wrapper around axios to allow for custom interceptors",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,16 +23,16 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group ajax",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group ajax",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group ajax",
+    "debug": "cd ../../ && npm run debug --group ajax",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group ajax",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group ajax",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group ajax"
+    "test": "cd ../../ && npm run test:browser --group ajax"
   },
   "sideEffects": false,
   "dependencies": {
     "@bundled-es-modules/axios": "0.18.1",
-    "@lion/core": "0.13.1",
+    "@lion/core": "0.13.2",
     "singleton-manager": "1.1.2"
   },
   "keywords": [

@@ -1,6 +1,6 @@
 {
   "name": "@lion/radio-group",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "description": "Manage a group of choices",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,21 +23,21 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group radio-group",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group radio-group",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group radio-group",
+    "debug": "cd ../../ && npm run debug --group radio-group",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group radio-group",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group radio-group",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group radio-group"
+    "test": "cd ../../ && npm run test:browser --group radio-group"
   },
   "sideEffects": [
     "lion-radio.js",
     "lion-radio-group.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/fieldset": "0.15.2",
-    "@lion/form-core": "0.6.4",
-    "@lion/input": "0.10.2"
+    "@lion/core": "0.13.2",
+    "@lion/fieldset": "0.15.3",
+    "@lion/form-core": "0.6.5",
+    "@lion/input": "0.10.3"
   },
   "keywords": [
     "lion",

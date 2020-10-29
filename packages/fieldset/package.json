@@ -1,6 +1,6 @@
 {
   "name": "@lion/fieldset",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "description": "Allows to groups multiple input fields or other fieldsets together",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,19 +23,19 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group fieldset",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group fieldset",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group fieldset",
+    "debug": "cd ../../ && npm run debug --group fieldset",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group fieldset",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group fieldset",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group fieldset"
+    "test": "cd ../../ && npm run test:browser --group fieldset"
   },
   "sideEffects": [
     "lion-fieldset.js",
     "./docs/helpers/demo-fieldset-child.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/form-core": "0.6.4"
+    "@lion/core": "0.13.2",
+    "@lion/form-core": "0.6.5"
   },
   "keywords": [
     "fieldset",

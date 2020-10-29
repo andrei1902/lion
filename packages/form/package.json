@@ -1,6 +1,6 @@
 {
   "name": "@lion/form",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "It enhances the functionality of the native `form` component. It is designed to interact with (instances of) form fields",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group form",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group form",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group form",
+    "debug": "cd ../../ && npm run debug --group form",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group form",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group form",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group form"
+    "test": "cd ../../ && npm run test:browser --group form"
   },
   "sideEffects": [
     "lion-form.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/fieldset": "0.15.2"
+    "@lion/core": "0.13.2",
+    "@lion/fieldset": "0.15.3"
   },
   "keywords": [
     "form",

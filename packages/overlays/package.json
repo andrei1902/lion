@@ -1,6 +1,6 @@
 {
   "name": "@lion/overlays",
-  "version": "0.21.1",
+  "version": "0.21.2",
   "description": "Overlays System using lit-html for rendering",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,18 +23,18 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group overlays",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group overlays",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group overlays",
+    "debug": "cd ../../ && npm run debug --group overlays",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group overlays",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group overlays",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group overlays"
+    "test": "cd ../../ && npm run test:browser --group overlays"
   },
   "sideEffects": [
     "./docs/demo-overlay-system.js",
     "./docs/applyDemoOverlayStyles.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
+    "@lion/core": "0.13.2",
     "popper.js": "^1.15.0",
     "singleton-manager": "1.1.2"
   },

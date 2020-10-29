@@ -1,6 +1,6 @@
 {
   "name": "@lion/tooltip",
-  "version": "0.15.2",
+  "version": "0.15.3",
   "description": "Show relative overlay content on hover",
   "license": "MIT",
   "author": "ing-bank",
@@ -23,19 +23,19 @@
     "types"
   ],
   "scripts": {
-    "debug": "cd ../../ && yarn debug --group tooltip",
-    "debug:firefox": "cd ../../ && yarn debug:firefox --group tooltip",
-    "debug:webkit": "cd ../../ && yarn debug:webkit --group tooltip",
+    "debug": "cd ../../ && npm run debug --group tooltip",
+    "debug:firefox": "cd ../../ && npm run debug:firefox --group tooltip",
+    "debug:webkit": "cd ../../ && npm run debug:webkit --group tooltip",
     "prepublishOnly": "../../scripts/npm-prepublish.js",
-    "test": "cd ../../ && yarn test:browser --group tooltip"
+    "test": "cd ../../ && npm run test:browser --group tooltip"
   },
   "sideEffects": [
     "lion-tooltip.js",
     "lion-tooltip-arrow.js"
   ],
   "dependencies": {
-    "@lion/core": "0.13.1",
-    "@lion/overlays": "0.21.1"
+    "@lion/core": "0.13.2",
+    "@lion/overlays": "0.21.2"
   },
   "keywords": [
     "lion",
